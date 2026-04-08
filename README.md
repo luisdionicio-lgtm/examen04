@@ -28,11 +28,6 @@ cd peliculasestreno
 
 ## 🖼️ Capturas
 
-### Panel Admin
 ![Admin](imagenes/admin.png)
-
-### Películas
 ![Peliculas](imagenes/peliculas.png)
-
-### Directores
 ![Directores](imagenes/directores.png)
