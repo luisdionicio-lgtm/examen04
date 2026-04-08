@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Películas</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #121212;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #1f1f1f;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+
+<body>
+
+<h1> Lista de Películas</h1>
+
+<div class="contenedor">
+    {% for pelicula in peliculas %}
+    <div class="card">
+        <h3>{{ pelicula.titulo }}</h3>
+        <p>Año: {{ pelicula.anio_estreno }}</p>
+        <p>Genero: {{ pelicula.genero }}</p>
+        <p>Director: {{ pelicula.director.nombre }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>
