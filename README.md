@@ -27,7 +27,10 @@ git clone https://github.com/luisdionicio-lgtm/examen04
 cd peliculasestreno
 
 ## 🖼️ Capturas
+## 🖼️ Capturas
 
-![Admin](imagenes/admin.png)
-![Peliculas](imagenes/peliculas.png)
-![Directores](imagenes/directores.png)
+![Admin](https://raw.githubusercontent.com/luisdionicio-lgtm/examen04/main/imagenes/admin.png)
+
+![Peliculas](https://raw.githubusercontent.com/luisdionicio-lgtm/examen04/main/imagenes/peliculas.png)
+
+![Directores](https://raw.githubusercontent.com/luisdionicio-lgtm/examen04/main/imagenes/directores.png)
