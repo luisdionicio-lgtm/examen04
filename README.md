@@ -26,7 +26,7 @@ Cada película incluye datos como título, año de estreno y género, y está as
 git clone https://github.com/luisdionicio-lgtm/examen04
 cd peliculasestreno
 
-## 🖼️ Capturas
+
 ## 🖼️ Capturas
 
 ![Admin](https://raw.githubusercontent.com/luisdionicio-lgtm/examen04/main/imagenes/admin.png)
